@@ -45,17 +45,38 @@ header{
 	background-color: #fcdfdb;
 	color:#3c1218;
 }
+.fa-music{
+	font-size: 3em;
+	background: -webkit-gradient(linear, left center, right center, from(#f04a5e), to(#f78f6a));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .card2{
 	background-color: #fff5fe;
 	color:#c77412;
+}
+.card2 h3{
+	background: -webkit-gradient(linear, left center, right center, from(#d8852e), to(#905bfd));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .card3{
 	background-color: #f9f9f9;
 	color:#0887fb;
 }
+.card3 h3{
+	background: -webkit-gradient(linear, left center, right center, from(#0431df), to(#0887fb));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .card4{
 	background-color: #fdfffd;
 	color:#72bf56;
+}
+.card4 h3{
+	background: -webkit-gradient(linear, left center, right center, from(#3d9339), to(#bfff7e));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .next_btn{
 	display:flex;
