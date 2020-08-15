@@ -90,6 +90,7 @@ header{
 	color:#fdcb46;
 	border-radius: 5px 5px 5px 5px;
 }
+
 footer{
 	width:100%;
 	height:10%;
@@ -101,6 +102,17 @@ footer a{
 	color:#fdcb46;
 	padding:12px 15px;
 }
+
+
+.legal{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
 
 @media (max-width: 640px){
 	footer{
