@@ -43,6 +43,13 @@ header{
 
 .card1{
 	background-color: #fcdfdb;
+}
+.card1 a{
+	font-size: 2em;
+	margin:0px;
+	color:#3c1218;
+}
+.card1 h3{
 	color:#3c1218;
 }
 .fa-music{
@@ -53,6 +60,10 @@ header{
 }
 .card2{
 	background-color: #fff5fe;
+}
+.card2 a{
+	font-size: 2em;
+	margin:0px;
 	color:#c77412;
 }
 .card2 h3{
@@ -62,6 +73,10 @@ header{
 }
 .card3{
 	background-color: #f9f9f9;
+}
+.card3 a{
+	font-size: 2em;
+	margin:0px;
 	color:#0887fb;
 }
 .card3 h3{
@@ -71,6 +86,10 @@ header{
 }
 .card4{
 	background-color: #fdfffd;
+}
+.card4 a{
+	font-size: 2em;
+	margin:0px;
 	color:#72bf56;
 }
 .card4 h3{
@@ -114,9 +133,20 @@ footer a{
 	padding-right: 20%;
 }
 
-
+@media (max-width: 1024px){
+	header{
+		margin-bottom: 15%;
+	}
+}
 @media (max-width: 640px){
 	footer{
 		justify-content: space-between;
+	}
+	.card{
+		width:40%;
+		height:250px;
+	}
+	h3{
+		text-align: center;
 	}
 }

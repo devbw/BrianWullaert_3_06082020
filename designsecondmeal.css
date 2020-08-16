@@ -100,8 +100,47 @@ footer a{
 	color:#fdcb46;
 	padding:12px 15px;
 }
-@media (max-width: 640px){
-	html{
+@media (max-width: 1024px){
+	.content{
+		width: 100%;
+		display: block;
+	}
+	.menucontent2{
+		width: 100%;
+		text-align: center;
+	}
+	.subtitle{
 		width:100%;
 	}
+	.line{
+		width: 25%;
+	}
+	.menucontent3{
+		margin-bottom: 15%;
+	}
+	h2{
+		margin-top: 15%;
+	}
+}
+@media (max-width: 640px){
+	.content{
+		width: 90%;
+		display: inline-block;
+	}
+	.menucontent2{
+		width: 100%;
+		text-align: center;
+
+	}
+	.subtitle{
+		width:100%;
+	}
+	.line{
+		width: 25%;
+	}
+	.menucontent3{
+		width: 90%;
+		text-align: center;
+	}
+
 }
