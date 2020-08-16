@@ -14,16 +14,14 @@ h1{
 	font-size: 2em;
 	padding: 20px 0px;
 }
-
 h2{
-	color:#3c1218;
+	background: -webkit-gradient(linear, left center, right center, from(#d8852e), to(#905bff));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 	margin:0px;
 	font-size: 2em;
 	padding: 20px 0px;
-}
-h4{
-	font-size: 1.4em;
-	margin: 0px;
+	margin-bottom: 50px;
 }
 header{
 	width:100%;
@@ -33,18 +31,21 @@ header{
 	justify-content: center;
 }
 .container{
-	background-color: #fcdfdb;
+	background-color: #fff5fe;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	padding-top:5%;
 	padding-bottom: 5%;
 }
-.fa-music{
-	font-size: 3.5em;
-	background: -webkit-gradient(linear, left center, right center, from(#f04a5e), to(#f78f6a));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.firsttitle{
+	color:#c67412;
+}
+.secondtitle{
+	color:#a56799;
+}
+.thirdtitle{
+	color:#6e4ccc;
 }
 .subtitle{
 	display: flex;
@@ -58,29 +59,35 @@ header{
 	display: inline-block;
 }
 .line{
-	border: 1px solid #3c1218;
 	width:200px;
 	display: inline-block;
 }
+.lineone {
+	border:1px solid #c67412;
+}
+.linetwo {
+	border:1px solid #a56799;
+}
+.linethree{
+	border:1px solid #6e4ccc;
+}
+.menucontent{
+	color:#c67412;
+}
 .menucontent2{
+	color:#a56799;
+}
+.menucontent3{
 	text-align: left;
-	width:700px;
+	width:600px;
 	margin:0 auto;
+	color:#6e4ccc;
 }
 .content{
 	display: flex;
 	justify-content: space-between;
-	width:700px;
+	width:600px;
 	margin:0 auto;
-}
-.endtitle{
-	display: flex;
-	justify-content: center;
-	margin-top: 60px;
-}
-.endtitle .fas{
-	margin-right: 10px;
-	font-size: 2em;
 }
 footer{
 	width:100%;
@@ -92,4 +99,9 @@ footer{
 footer a{
 	color:#fdcb46;
 	padding:12px 15px;
+}
+@media (max-width: 640px){
+	html{
+		width:100%;
+	}
 }
