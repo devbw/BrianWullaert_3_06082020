@@ -8,6 +8,9 @@ body{
 a{
 	text-decoration: none;
 }
+p{
+	color:#3c1218;
+}
 h1{
 	color:#fdcb46;
 	margin:0px;
@@ -24,6 +27,7 @@ h2{
 h4{
 	font-size: 1.4em;
 	margin: 0px;
+	color:#3c1218;
 }
 header{
 	width:100%;
@@ -56,6 +60,7 @@ header{
 }
 .subtitle h3{
 	display: inline-block;
+	color:#3c1218;
 }
 .line{
 	border: 1px solid #3c1218;
@@ -92,4 +97,25 @@ footer{
 footer a{
 	color:#fdcb46;
 	padding:12px 15px;
+}
+@media (max-width: 1024px){
+	.endtitle{
+		margin-bottom: 30%;
+	}
+}
+@media (max-width: 640px){
+	.content{
+		width: 100%;
+		display: block;
+	}
+	.menucontent2{
+		width: 100%;
+		text-align: center;
+	}
+	.subtitle{
+		width:100%;
+	}
+	.line{
+		width: 25%;
+	}
 }
