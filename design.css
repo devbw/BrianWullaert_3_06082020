@@ -67,7 +67,7 @@ header{
 	color:#c77412;
 }
 .card2 h3{
-	background: -webkit-gradient(linear, left center, right center, from(#d8852e), to(#905bfd));
+	background: linear-gradient(90deg, rgba(216,133,46,1) 0%, rgba(144,91,255,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -80,7 +80,7 @@ header{
 	color:#0887fb;
 }
 .card3 h3{
-	background: -webkit-gradient(linear, left center, right center, from(#0431df), to(#0887fb));
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -93,7 +93,7 @@ header{
 	color:#72bf56;
 }
 .card4 h3{
-	background: -webkit-gradient(linear, left center, right center, from(#3d9339), to(#bfff7e));
+	background: linear-gradient(90deg, rgba(61,147,57,1) 0%, rgba(191,255,126,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

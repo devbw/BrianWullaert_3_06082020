@@ -15,13 +15,16 @@ h1{
 	padding: 20px 0px;
 }
 h2{
-	background: linear-gradient(90deg, rgba(216,133,46,1) 0%, rgba(144,91,255,1) 100%);
+	background: linear-gradient(90deg, rgba(61,147,57,1) 0%, rgba(191,255,126,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 	margin:0px;
 	font-size: 2em;
 	padding: 20px 0px;
 	margin-bottom: 50px;
+}
+h3{
+	color:#464747;
 }
 header{
 	width:100%;
@@ -31,21 +34,12 @@ header{
 	justify-content: center;
 }
 .container{
-	background-color: #fff5fe;
+	background-color: #f9f9f9;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	padding-top:5%;
 	padding-bottom: 5%;
-}
-.firsttitle{
-	color:#c67412;
-}
-.secondtitle{
-	color:#a56799;
-}
-.thirdtitle{
-	color:#6e4ccc;
 }
 .subtitle{
 	display: flex;
@@ -63,25 +57,27 @@ header{
 	display: inline-block;
 }
 .lineone {
-	border:1px solid #c67412;
+	border:3px solid;
+	border-image-source: linear-gradient(90deg, rgba(61,147,57,1) 0%, rgba(191,255,126,1) 100%);
+	border-image-slice: 1;
 }
 .linetwo {
-	border:1px solid #a56799;
+	border:3px solid;
+	border-image-source: linear-gradient(90deg, rgba(191,255,126,1) 0%, rgba(61,147,57,1) 100%);
+	border-image-slice: 1;
 }
-.linethree{
-	border:1px solid #6e4ccc;
-}
+
 .menucontent{
-	color:#c67412;
+	color:#464747;
 }
 .menucontent2{
-	color:#a56799;
+	color:#464747;
 }
 .menucontent3{
 	text-align: left;
 	width:600px;
 	margin:0 auto;
-	color:#6e4ccc;
+	color:#464747;
 }
 .content{
 	display: flex;
