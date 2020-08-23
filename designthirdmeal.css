@@ -25,6 +25,22 @@ h2{
 }
 h3{
 	color:#464747;
+	display: inline;
+    position: relative;
+}
+h3:after{
+	content: '';
+    display: block;
+    position: absolute;
+    bottom: -8px;
+    width: 0%;
+    left: 0px;
+    height: 2px;
+    transition: 0.25s;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+h3:hover:after{
+	width:100%;
 }
 header{
 	width:100%;
@@ -57,13 +73,13 @@ header{
 	display: inline-block;
 }
 .lineone {
-	border:1px solid #0e32de;
+	border:2px solid #0e32de;
 }
 .linetwo {
-	border:1px solid #0568b8;
+	border:2px solid #0568b8;
 }
 .linethree{
-	border:1px solid #01b5eb;
+	border:2px solid #01b5eb;
 }
 .menucontent{
 	color:#464747;
@@ -82,6 +98,26 @@ header{
 	justify-content: space-between;
 	width:600px;
 	margin:0 auto;
+}
+.shake:hover {
+  -webkit-animation-name: wiggle;
+  -webkit-animation-duration: 1000ms;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+}
+@-webkit-keyframes wiggle {
+  0% {-webkit-transform: rotate(5deg);}
+  25% {-webkit-transform: rotate(-5deg);}
+  50% {-webkit-transform: rotate(10deg);}
+  75% {-webkit-transform: rotate(-5deg);}
+  100% {-webkit-transform: rotate(0deg);}
+}
+@keyframes wiggle {
+  0% {transform: rotate(5deg);}
+  25% {transform: rotate(-5deg);}
+  50% {transform: rotate(10deg);}
+  75% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
 }
 footer{
 	width:100%;
