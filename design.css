@@ -5,19 +5,6 @@ body{
 	list-style: none;
 	font-family: 'Montserrat', sans-serif;
 }
-:root {
-  --animate-duration: 1s;
-  --animate-delay: 1s;
-  --animate-repeat: 1;
-}
-.animate__animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-duration: var(--animate-duration);
-  animation-duration: var(--animate-duration);
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
 a{
 	text-decoration: none;
 }
