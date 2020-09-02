@@ -147,7 +147,7 @@ footer a{
 		margin-top: 15%;
 	}
 }
-@media (max-width: 640px){
+@media (max-width: 667px){
 	.content{
 		width: 90%;
 		display: inline-block;
@@ -155,11 +155,22 @@ footer a{
 	.menucontent2{
 		width: 100%;
 		text-align: center;
+
 	}
 	.subtitle{
 		width:100%;
 	}
 	.line{
 		width: 25%;
+	}
+	.menucontent3{
+		width: 90%;
+		text-align: center;
+	}
+	h3{
+		font-size: 0.9em;
+	}
+	footer{
+		width:100%;
 	}
 }
